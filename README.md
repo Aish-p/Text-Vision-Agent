@@ -28,13 +28,15 @@ This agent leverages several state-of-the-art tools and models:
 1. **Clone the Repository**
 2. **Install Requirements**
    * Install the necessary dependencies by running:
+     ```
      pip install -r requirements.txt
+     ```
 3. **Set up Ollama**
   * Ensure that you have Ollama running. You can download and install Ollama from here.
   * Pull the required models by running the following commands:
     ```
-    ollama pull llama3.2-vision:latest
     ollama pull llama3.2:latest
+    ollama pull llama3.2-vision:latest
     ```
 4. **Verify Installation**
   * Once the dependencies are installed and the models are pulled, you should be good to go! To verify everything is set up correctly, run the following command:
@@ -44,6 +46,7 @@ This agent leverages several state-of-the-art tools and models:
     You should see the welcome message and be able to interact with the agent.
     
 ## How It Works 🔄
+
 1. **Step 1: Generate Image** 🌄
   * The user provides a textual prompt (e.g., “A serene beach at sunset”).
   * The **FluxPipeline** generates the image from the prompt using deep learning models powered by **Torch**. These models convert the text into pixels, forming an image that corresponds to the user's description.
