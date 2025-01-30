@@ -27,10 +27,10 @@ This agent leverages several state-of-the-art tools and models:
 ## Installation 🛠️
 1. **Clone the Repository**
 2. **Install Requirements**
-   * Install the necessary dependencies by running:
-     ```
-     pip install -r requirements.txt
-     ```
+ * Install the necessary dependencies by running:
+   ```
+   pip install -r requirements.txt
+   ```
 3. **Set up Ollama**
   * Ensure that you have Ollama running. You can download and install Ollama from here.
   * Pull the required models by running the following commands:
