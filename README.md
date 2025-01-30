@@ -31,7 +31,7 @@ This agent leverages several state-of-the-art tools and models:
    pip install -r requirements.txt
    ```
 3. **Set up Ollama**
-  * Ensure that you have Ollama running. You can download and install Ollama from here.
+  * Ensure that you have Ollama running. You can download and install Ollama from here [Link Text](https://ollama.com/download)
   * Pull the required models by running the following commands:
     ```
     ollama pull llama3.2:latest
