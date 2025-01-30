@@ -11,8 +11,7 @@ This agent leverages several state-of-the-art tools and models:
 
 **Langchain** 🔗: A framework for developing AI applications. It helps with the orchestration of the tools and agents.
   * ChatOllama: A wrapper around the Ollama LLM for conversational AI tasks.
-  * initialize_agent: A function to configure and set up the agent to process tasks.
-  * ConversationBufferWindowMemory: This handles memory and keeps track of recent conversations for better context understanding.
+  * Initialize_agent: A function to configure and set up the agent to process tasks.
 
 **FluxPipeline** 🔥: A model from Diffusers used for generating images from text prompts. It uses deep learning to produce high-quality images.
 
@@ -54,11 +53,7 @@ This agent leverages several state-of-the-art tools and models:
 2. **Step 2: Describe Image** 🖋️
   * The generated image is passed through the **ChatOllama** Vision model. The model interprets the content of the image and generates a descriptive text. For example, it might generate a description like: "A beautiful beach with the sun setting behind the waves, and palm trees lining the shore."
 
-3. **Step 3: Memory Handling** 🧠
-  * The **ConversationBufferWindowMemory** keeps track of recent interactions, helping the agent remember the context of the conversation. The memory stores up to 5 messages, making the agent’s responses more coherent and contextually aware. This allows the agent to reference prior exchanges (such as previous image descriptions) and produce more fluid dialogues.
-  * For example, if the user asks, "Can you describe the image again?" the agent will recall the earlier description and respond without needing to regenerate the image.
-
-4. **Step 4: Agent Interaction & Execution** 💬
+3. **Step 3: Agent Interaction & Execution** 💬
   * The **initialize_agent** function ties all these tools together. It configures the **LangChain** agent to execute tasks step-by-step, starting with generating the image, then interpreting and describing it. The agent follows an approach known as **Zero-Shot Reacting**, where it can make decisions dynamically based on the available tools without predefined responses.
 
 ## Usage 🧑‍💻
