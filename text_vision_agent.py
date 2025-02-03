@@ -62,7 +62,7 @@ def make_image(topic: str):
     pipe = FluxPipeline.from_pretrained('black-forest-labs/FLUX.1-schnell', torch_dtype=torch.bfloat16).to('cuda')
     image = pipe(prompt, height=1024, width=512).images[0]
 
-    image_name = f"./{topic.replace(' ', '_')}.jpeg"
+    image_name = f"./{topic[:12].replace(' ', '_')}.png"
     image.save(image_name)
     return image_name
 
