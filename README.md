@@ -56,14 +56,35 @@ This agent leverages several state-of-the-art tools and models:
 3. **Step 3: Agent Interaction & Execution** 💬
   * The **initialize_agent** function ties all these tools together. It configures the **LangChain** agent to execute tasks step-by-step, starting with generating the image, then interpreting and describing it. The agent follows an approach known as **Zero-Shot Reacting**, where it can make decisions dynamically based on the available tools without predefined responses.
 
+## Demo
+Here are some screenshots from the Text-Vision Agent in action:
+
+### User Input  
+📝 **Prompt:**  
+*"An ancient Greek soldier holding a sword and shield stands in the foreground. Behind him, horses are visible, and in the background, a snow-capped mountain rises."*  
+
+### Screenshots
+
+<div align="center">
+  <p><strong>Generated Image</strong></p>
+  <img src="/screenshots/An_ancient_G.PNG" alt="Generated Image" width="500">
+</div>
+<br>
+
+<div align="center">
+  <p><strong>Description of Image</strong></p>
+  <img src="/screenshots/description.PNG" alt="Description of Image" width="500">
+</div>
+<br>
+
 ## Usage 🧑‍💻
 Once the agent is set up and running, you can interact with it as follows:
 
 1.**Launch the Agent**:
   * Start the agent by running the script
-    ```
-    python text_vision_agent.py
-    ```
+  ```
+  python text_vision_agent.py
+  ```
 
 2. **Enter a Topic**:
   * Enter a topic (e.g., 'person standing on a mountain peak at sunrise') when prompted.
