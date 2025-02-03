@@ -60,12 +60,14 @@ This agent leverages several state-of-the-art tools and models:
 Once the agent is set up and running, you can interact with it as follows:
 
 1.**Launch the Agent**:
-  * Start the agent by running the script
+    * Start the agent by running the script
     ```
     python text_vision_agent.py
     ```
+
 2. **Enter a Topic**:
-  * Enter a topic (e.g., 'person standing on a mountain peak at sunrise') when prompted.
-  * The agent will generate an image based on this topic and provide a description.
+    * Enter a topic (e.g., 'person standing on a mountain peak at sunrise') when prompted.
+    * The agent will generate an image based on this topic and provide a description.
+
 3. **Get the Result**:
-  * You’ll receive the generated image and a description of it.
+    * You’ll receive the generated image and a description of it.
