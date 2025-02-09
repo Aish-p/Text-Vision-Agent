@@ -3,8 +3,8 @@
 The Text Vision Agent is an AI-powered assistant that can generate images from a text prompt and describe the generated images. It combines image generation and vision-based language models to create a seamless process of generating and interpreting images. The agent utilizes **LangChain, ChatOllama models,** and a custom pipeline for image processing.
 
 ## Features 🌟
-  * Image Generation 🖌️: Generate stunning images from text descriptions.
-  * Image Description 📝: Receive detailed descriptions of generated images.
+  * **Image Generation** 🖌️: Generate stunning images from text descriptions.
+  * **Image Description** 📝: Receive detailed descriptions of generated images.
 
 ## Tools Used 🔧
 This agent leverages several state-of-the-art tools and models:
