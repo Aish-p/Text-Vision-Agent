@@ -25,6 +25,10 @@ This agent leverages several state-of-the-art tools and models:
 
 ## Installation 🛠️
 1. **Clone the Repository**
+   ```
+   git clone https://github.com/Aish-p/Text-Vision-Agent.git
+   cd Text-Vision-Agent
+   ```
 2. **Install Requirements**
  * Install the necessary dependencies by running:
    ```
