@@ -96,3 +96,6 @@ Once the agent is set up and running, you can interact with it as follows:
 
 3. **Get the Result**:
    * You’ll receive the generated image and a description of it.
+
+## 📜 License
+MIT License – Free to use & modify!
