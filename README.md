@@ -60,7 +60,7 @@ This agent leverages several state-of-the-art tools and models:
 3. **Step 3: Agent Interaction & Execution** 💬
   * The **initialize_agent** function ties all these tools together. It configures the **LangChain** agent to execute tasks step-by-step, starting with generating the image, then interpreting and describing it. The agent follows an approach known as **Zero-Shot Reacting**, where it can make decisions dynamically based on the available tools without predefined responses.
 
-## Demo 🔍
+## Demo
 Here are some screenshots from the Text-Vision Agent in action:
 
 ### User Input  
